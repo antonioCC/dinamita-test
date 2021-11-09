@@ -1,0 +1,191 @@
+#contenedor {
+    position:relative;
+    max-width: 980px;
+    margin: 0 auto;
+    /*box-shadow: 0 0 18px rgba(0, 0, 0, .4)*/
+
+}
+
+.navbar {
+      margin-bottom: 10px;
+      border-radius: 40px;
+
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 10px;
+    }
+
+header {
+    max-width: 980px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 1em;
+    border-radius: 25px;
+    height: 110px;
+    background-color:orange;
+    color:black;
+    text-align: center;
+}
+
+header h1 {
+    text-shadow: 8px 8px 8px #FF0000;
+}
+
+figure { 
+    padding: 5px;
+     margin: 1px;
+}
+
+header figure img#panoramica {
+    float:left;
+    width:400px;
+    border-radius: 20px 20px;
+    height:100px;
+  }
+
+header figure img#logonormal {
+    float:right;
+    max-width: 100px;
+    height: 100px;
+     
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+div#sect section img{
+    float:left;
+    width: 100px;
+    height: 100px;
+    border-radius:20px 20px; 
+    padding: 10px; 
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:-100px; top:0px;}
+    100%  {left:400px; top:0px;}    
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+}
+
+nav {
+    border-radius: 20px;
+    background: greenYellow;
+    margin-top: 0px;
+    padding: 1px;
+   line-height: 0px;
+}
+nav ul#menu { padding: 5px; }
+
+nav ul#menu li {
+    display: inline;
+    padding-left: 5px;
+}
+
+nav ul#menu li a {
+    color: white;
+    background-color: #339933;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 16px 4px;
+}
+
+
+nav ul#menu li a:hover {
+    background-color: orange;
+}
+
+
+
+aside img#kishi{
+    float:center;
+    max-width: 210px;
+    height: 215px;
+}
+
+div#sect section {
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+    border-radius: 20px;
+    background-color: #f09b53;
+    width:980px;
+    height:auto;
+    display: inline-block;
+    padding:10px;          
+}
+
+div#sect2 section {
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+    border-radius: 20px;
+    background-color: #f09b53;
+    max-width:985px;
+    height:auto;
+    display:inline-block;
+    padding:10px;        
+}
+
+div#sect3 section {
+    font-family: 'Playball', cursive;
+    font-size: 1em;
+    border-radius: 20px;
+    background-color: #f09b53;
+    max-width:985px;
+    height:auto;
+    text-align: center;
+    display: auto;
+    padding:10px;       
+}
+
+span{
+    display: inline;
+    align-self: left
+    padding: 2px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+}
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+footer {
+    border-radius: 20px;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;      
+}
+
