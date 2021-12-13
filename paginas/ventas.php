@@ -145,7 +145,7 @@ include_once '../crudventa.php';
 
 
 <footer>
-Copyright antonio,diana,felipe
+Copyright Equipo dinamita
 </footer>
 </div>
 </body>

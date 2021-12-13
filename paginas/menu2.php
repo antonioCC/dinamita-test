@@ -60,7 +60,7 @@ jlsjdcl ksdjclskjdclksdjckl sd jlcsjd lcjsdkl cjdhkdjahsdkjas hkdjahskdhaksjd as
 </div>
 
 <footer>
-Copyright antonio,diana,felipe
+Copyright Equipo dinamita
 </footer>
 </div>
 </body>

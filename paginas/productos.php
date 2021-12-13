@@ -160,7 +160,7 @@ include_once '../crudproductos.php';
 
 
 <footer>
-Copyright Antonio,Diana,Felipe
+Copyright Equipo dinamita
 </footer>
 </div>
 </body>

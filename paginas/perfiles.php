@@ -148,7 +148,7 @@ include_once '../crudperfiles.php';
 
 
 <footer>
-Copyright antonio,diana,felipe
+Copyright Equipo dinamita
 </footer>
 </div>
 </body>

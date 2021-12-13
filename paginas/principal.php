@@ -62,7 +62,7 @@
 </div>
 
 <footer>
-Copyright antonio,diana,felipe
+Copyright Equipo dinamita
 </footer>
 </div>
 </body>
