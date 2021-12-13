@@ -3,7 +3,7 @@
 include_once 'Db.php';
 
 /* Codigo para Insertar Datos */
-if(isset($_POST['guardar']))
+if(isset($_POST['Guardar']))
 {
 		
 	 echo "Guardandoooooooooooooooooooo";
@@ -16,11 +16,11 @@ if(isset($_POST['guardar']))
   {
    echo $MySQLiconn->error;
   } 
-  header("Location:roles.php");
+  header("Location:Roles.php");
 }
 
 /* Codigo para eliminar Datos */
-if(isset($_GET['eliminar']))
+if(isset($_GET['Eliminar']))
 {
  $SQL = $MySQLiconn->query("DELETE FROM rol WHERE id=".$_GET['eliminar']);
  header("Location:roles.php");
@@ -28,7 +28,7 @@ if(isset($_GET['eliminar']))
 
 
 /* Codigo para Editar Datos */
-if(isset($_GET['editar']))
+if(isset($_GET['Editar']))
 {
 
  $SQL = $MySQLiconn->query("SELECT * FROM rol WHERE id=".$_GET['editar']);
@@ -36,15 +36,15 @@ if(isset($_GET['editar']))
 }
 
 /* Codigo para Actualizar Datos */
-if(isset($_POST['actualizar']))
+if(isset($_POST['Actualizar']))
 {
  $SQL = $MySQLiconn->query(
-                          "UPDATE rol SET nombre='" 
-                          . $_POST['nombre']
+                          "UPDATE rol SET Nombre='" 
+                          . $_POST['Nombre']
                           . "', valor='"
                           . $_POST['valor']
                           . "' WHERE id="
-                          . $_GET['editar']);
+                          . $_GET['Editar']);
 
  header("Location:roles.php");
 }
